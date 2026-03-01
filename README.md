@@ -1,6 +1,3 @@
-# iGUT-repository
-informational Geometric Unified Theory
-
 # iGUT: informational Geometric Unified Theory  
 ### *A Pre-Geometric Information Framework for the Universe*
 
