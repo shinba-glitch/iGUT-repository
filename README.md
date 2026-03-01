@@ -139,22 +139,22 @@ iGUT/
 │   ├── Philosophy.md
 │   └── The_Four_Levels.md
 │
-├── 01_Level_4_Information/
-│   └── Axioms_of_Distinction.md
+├── 01_Level_1_Spacetime/
+│   ├── Emergence_of_CP2.md
+│   ├── Origin_of_Quantum.md
+│   └── Derivation_of_Constants.md
 │
-├── 02_Level_3_PreDynamics/
+├── 02_Level_2_Algebraic_Vacuum/
+│   ├── Uniqueness_of_H3O.md
+│   └── Peirce_Decomposition.md
+│
+├── 03_Level_3_PreDynamics/
 │   ├── Magma_and_Associator.md
 │   ├── The_Primordial_Action.md
 │   └── Matrix_Inflation.md
 │
-├── 03_Level_2_Algebraic_Vacuum/
-│   ├── Uniqueness_of_H3O.md
-│   └── Peirce_Decomposition.md
-│
-├── 04_Level_1_Spacetime/
-│   ├── Emergence_of_CP2.md
-│   ├── Origin_of_Quantum.md
-│   └── Derivation_of_Constants.md
+├── 04_Level_4_Information/
+│   └── Axioms_of_Distinction.md
 │
 ├── papers/
 │   ├── Part1_CP2_Geometry/
@@ -169,13 +169,13 @@ iGUT/
 
 ## 📘 How to Read iGUT
 
-1. **04_Level_1_Spacetime/**  
+1. **01_Level_1_Spacetime/**  
    → 観測される世界（CP²・量子・時空）から入る  
-2. **03_Level_2**  
+2. **02_Level_2**  
    → 3世代と行列物理の起源  
-3. **02_Level_3**  
+3. **03_Level_3**  
    → 非結合カオスと Matrix Inflation  
-4. **01_Level_4**  
+4. **04_Level_4**  
    → 宇宙の最も深い根源へ  
 5. **papers/**  
    → 完成した論文（Part I & II）
@@ -214,6 +214,6 @@ iGUT の目標は、
 
 ## ✨ Author
 
-Takuya  
+
 Hachioji, Tokyo, Japan  
 2026
