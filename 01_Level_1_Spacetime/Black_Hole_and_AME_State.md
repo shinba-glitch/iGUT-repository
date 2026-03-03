@@ -35,13 +35,13 @@ iGUT において、情報流 \( j^\mu \) には
 
 
 
-\[
+\$$
 S_{\text{info}} \sim \int d^4x\, \sqrt{-g}\,
 \left(
 \lambda^2 \sqrt{1 + \frac{j_\mu j^\mu}{\lambda^2}}
 - \lambda^2
 \right)
-\]
+\$$
 
 
 
