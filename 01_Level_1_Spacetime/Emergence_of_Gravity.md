@@ -26,13 +26,13 @@ iGUT の基本作用は、Level 3 の非結合カオスを抑制する
 **アソシエーター作用**である。
 
 \$$
-S_{\mathrm{assoc}}[\Phi] \sim \int \|[\Phi,\Phi,\Phi]_\circ\|^2
+S_{\mathrm{assoc}}$$\Phi$$ \sim \int \|$$\Phi,\Phi,\Phi$$_\circ\|^2
 \$$
 
 ここには一般相対性理論の基本項  
-\[
+\$$
 \int d^4x\, \sqrt{-g}\, R
-\]  
+\$$  
 は存在しない。
 
 理由は明確である：
@@ -49,21 +49,21 @@ S_{\mathrm{assoc}}[\Phi] \sim \int \|[\Phi,\Phi,\Phi]_\circ\|^2
 ## 3. CP² 情報幾何が「物理的な空間」を定義する
 
 Level 2 の安定真空は  
-\[
+\$$
 \mathcal{H}_3(\mathbb{C})
-\]  
+\$$  
 であり、その rank‑1 射影子空間は  
-\[
+\$$
 \mathbb{C}P^2
-\]  
+\$$  
 となる。
 
 CP² の自然な計量は Fubini–Study 計量：
 
-\[
+\$$
 ds^2 = \frac{\langle d\psi, d\psi\rangle}{\langle\psi,\psi\rangle}
       - \frac{|\langle\psi, d\psi\rangle|^2}{\langle\psi,\psi\rangle^2}
-\]
+\$$
 
 この情報幾何が、  
 - 物質の運動  
@@ -78,9 +78,9 @@ ds^2 = \frac{\langle d\psi, d\psi\rangle}{\langle\psi,\psi\rangle}
 
 ホログラフィー原理における RT 公式は、
 
-\[
+\$$
 S_{EE} = \frac{\mathrm{Area}(\gamma)}{4G_N}
-\]
+\$$
 
 を与える。
 
@@ -89,9 +89,9 @@ iGUT ではこれは「原理」ではなく「帰結」である。
 理由は、CP² 情報ネットワークには  
 **情報流束の容量制限（bit-thread bound）**
 
-\[
+\$$
 |j| \le \frac{1}{4G_N}
-\]
+\$$
 
 が存在するためである。
 
@@ -107,9 +107,9 @@ iGUT ではこれは「原理」ではなく「帰結」である。
 
 EFGT の中心方程式：
 
-\[
+\$$
 \nabla_\mu j^\mu = 0
-\]
+\$$
 
 これは量子情報のユニタリー性（情報保存）を  
 時空全体に拡張したもの。
@@ -122,9 +122,9 @@ CP² の曲率と外部時空の曲率が整合しなければならない。
 
 この整合条件が、アインシュタイン方程式に対応する：
 
-\[
+\$$
 G_{\mu\nu} = 8\pi G\, T_{\mu\nu}
-\]
+\$$
 
 つまり：
 
@@ -140,9 +140,9 @@ Level 3 の非結合カオスは完全には消えず、
 
 このノイズの分散がプランク定数：
 
-\[
+\$$
 \hbar = \langle \eta^2 \rangle
-\]
+\$$
 
 このノイズが CP² の情報構造を常に揺らすため、  
 CP² はそれを補正し続ける必要がある。
@@ -167,9 +167,9 @@ RT 公式のエントロピー \(S\) は CP² の情報容量である。
 
 したがって：
 
-\[
+\$$
 \delta Q = T\, \delta S
-\]
+\$$
 
 は、iGUT では  
 **「残留ノイズに対抗するための情報復元力」**  
