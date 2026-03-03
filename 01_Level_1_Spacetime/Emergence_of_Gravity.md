@@ -26,7 +26,7 @@ iGUT の基本作用は、Level 3 の非結合カオスを抑制する
 **アソシエーター作用**である。
 
 \$$
-S_{\mathrm{assoc}}$$\Phi$$ \sim \int \|$$\Phi,\Phi,\Phi$$_\circ\|^2
+S_{\mathrm{assoc}}[\Phi] \sim \int \|[\Phi,\Phi,\Phi]_\circ\|^2
 \$$
 
 ここには一般相対性理論の基本項  
