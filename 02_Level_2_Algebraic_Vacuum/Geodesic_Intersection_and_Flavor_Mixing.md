@@ -84,11 +84,13 @@ $$
 $$
 \psi_{\mathrm{up}}^{(i)}, \quad \psi_{\mathrm{down}}^{(j)}
 $$
+
 の内積が、CKM 行列要素を与える。
 
 $$
 V_{ij} = \langle \psi_{\mathrm{up}}^{(i)} , \psi_{\mathrm{down}}^{(j)} \rangle
 $$
+
 
 これは、測地線の交差角とねじれ角だけで決まる。
 
