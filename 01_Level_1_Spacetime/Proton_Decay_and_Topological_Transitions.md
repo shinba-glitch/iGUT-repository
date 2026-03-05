@@ -102,10 +102,10 @@ S_{\text{instanton}} = \frac{1}{\hbar_{\text{eff}}} \int_{\mathbb{C}P^1} \mathca
 $$
 
 ここで  
--  
+
 $$\mathbb{C}P^1$$  
 は遷移が局在する部分多様体  
--  
+
 $$\hbar_{\text{eff}}$$  
 はレベル3の残留ノイズ  
 
