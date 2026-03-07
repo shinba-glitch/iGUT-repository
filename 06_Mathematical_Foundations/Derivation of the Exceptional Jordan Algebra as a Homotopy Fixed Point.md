@@ -6,7 +6,10 @@
 ## 1. 第3障害類 $\mathcal{O}_3$ の絶対最小値とトポロジカル拘束
 
 宇宙の進化方程式（マスター方程式）は、第3障害類（アソシエーター）のノルム $\|\mathcal{O}_3\|^2$ を最小化する勾配流である。
-$$\frac{\partial \circ}{\partial \tau} = - \frac{\delta}{\delta \circ} \|\mathcal{O}_3\|^2$$
+
+$$
+\frac{\partial \circ}{\partial \tau} = - \frac{\delta}{\delta \circ} \|\mathcal{O}_3\|^2
+$$
 
 理想的な極限（$\tau \to \infty$）において $\mathcal{O}_3(x,y,z) = 0$ がすべての元に対して成立すれば、システムは完全な結合代数となる。しかし、情報の多様性（自由度）を維持しつつ、実数体 $\mathbb{R}$ 上のノルム保存則（確率の保存）を満たす代数構造は、フルヴィッツの定理（Hurwitz's theorem）により、$\mathbb{R}, \mathbb{C}, \mathbb{H}, \mathbb{O}$（実数、複素数、四元数、八元数）の4つに厳密に制限される。
 
@@ -17,7 +20,10 @@ $$\frac{\partial \circ}{\partial \tau} = - \frac{\delta}{\delta \circ} \|\mathca
 大域的な $\mathcal{O}_3 = 0$ が禁止されている条件下で、勾配流 $\|\mathcal{O}_3\|^2 \to \text{min}$ が到達し得る「数学的な絶対下限（停留点）」は何か。それは、特定の対称な経路（演算）に対してのみアソシエーターがゼロになるという「部分的な結合律の回復」である。
 
 勾配流は、エルミート的（観測可能）な情報の合成において、以下の条件を満たすように自己組織化する。
-$$\mathcal{O}_3(x, y, x^2) = (x \circ y) \circ x^2 - x \circ (y \circ x^2) = 0$$
+
+$$
+\mathcal{O}_3(x, y, x^2) = (x \circ y) \circ x^2 - x \circ (y \circ x^2) = 0
+$$
 
 この方程式は、数学において**「ジョルダン恒等式（Jordan Identity）」**と呼ばれる。
 すなわち、情報ネットワークは完全な結合律を諦める代わりに、「任意の元 $x$ と $y$ に対して、べき乗の合成順序だけは一貫性を保つ（パワーアソシアティビティ）」という、トポロジカル拘束下で最もコヒーレントな状態へと収束する。
