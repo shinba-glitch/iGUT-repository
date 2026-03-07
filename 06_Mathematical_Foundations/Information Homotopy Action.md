@@ -33,6 +33,7 @@ iGUTの最上位の自由度は以下の通りである。
 最も本質的な作用は、次の一行で書くことができる。
 
 **情報ホモトピー作用（母作用）:**
+
 $$
 S_{\text{info}} = \int_{\mathcal{X}} \left( \| \mathcal{O}_3(\circ) \|^2 + \lambda_2 \| \mathcal{O}_2(\circ) \|^2 + \lambda_1 \| \mathcal{O}_1(\circ) \|^2 \right)
 $$
@@ -57,6 +58,7 @@ $$
 母作用 $S_{\text{info}}$ に対して、ホモトピー縮約パラメータ $\tau$ で勾配流を取ると、以下の力学方程式が得られる。
 
 **情報ホモトピー縮約方程式:**
+
 $$
 \frac{\partial \circ}{\partial \tau} = - \frac{\delta S_{\text{info}}}{\delta \circ}
 $$
