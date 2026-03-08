@@ -19,16 +19,28 @@ iGUT において宇宙の根源は、基礎ベクトル空間に定義された
 まず $A_\infty$ 代数の構造を与える。
 
 基礎ベクトル空間を $V$ とし、その上に無限列の多項演算を定義する。
-$$m_n : V^{\otimes n} \to V$$
+
+$$
+m_n : V^{\otimes n} \to V
+$$
+
 これらの演算はスタシェフ型の整合条件を満たし、結合律の破れを高次ホモトピーで順次補正する無限階層を形成する。
 
 宇宙の情報的整合性を測るために、情報ホモトピー作用を次のように定義する。
-$$S_{\text{info}} \{ m \} = \sum_{n \ge 3} \kappa_n \| m_n \|^2$$
+
+$$
+S_{\text{info}} \{ m \} = \sum_{n \ge 3} \kappa_n \| m_n \|^2
+$$
+
 ここで $\kappa_n$ は高次演算の剛性を表す定数であり、ノルムは $A_\infty$ 構造空間上の自然な計量から定義される。
 
 この作用の勾配流が、宇宙の法則そのものが時間と共にどのように変形されるかを記述する。
 量子重力マスター方程式の第一成分は、構造側の勾配流である。
-$$\frac{\partial m_n}{\partial \tau} = - \frac{\delta S_{\text{info}}}{\delta m_n} + \eta_n$$
+
+$$
+\frac{\partial m_n}{\partial \tau} = - \frac{\delta S_{\text{info}}}{\delta m_n} + \eta_n
+$$
+
 ここで $\tau$ は内部時間であり、宇宙の冷却度を表す。
 
 また $\eta_n$ は原初の量子的ゆらぎを表すノイズ項であり、完全な決定論ではなく確率的な探索を許す。
@@ -40,12 +52,20 @@ $$\frac{\partial m_n}{\partial \tau} = - \frac{\delta S_{\text{info}}}{\delta m_
 次に、同じ $A_\infty$ 構造の上で揺らぐ場の自由度を導入する。
 
 場を $\Phi \in V$ とし、$A_\infty$ 演算を用いて場の作用を定義する。
-$$S_{\text{field}} \{ \Phi \mid m \} = \sum_{n \ge 1} \frac{1}{n !} \langle \Phi , m_n \{ \Phi^{\otimes n} \} \rangle$$
+
+$$
+S_{\text{field}} \{ \Phi \mid m \} = \sum_{n \ge 1} \frac{1}{n !} \langle \Phi , m_n \{ \Phi^{\otimes n} \} \rangle
+$$
+
 ここで内積はベクトル空間上の不変な双線形形式であり、$A_\infty$ 構造と整合するように選ばれる。
 
 この作用は、低次の項が通常の自由場と二体相互作用を与え、高次の項が非結合性に由来する量子的位相構造を与える。
 量子論は、この作用に基づくパス積分として定義される。
-$$\mathcal{Z} \{ m \} = \int \mathcal{D} \Phi \, \exp \{ i S_{\text{field}} \{ \Phi \mid m \} \}$$
+
+$$
+\mathcal{Z} \{ m \} = \int \mathcal{D} \Phi \, \exp \{ i S_{\text{field}} \{ \Phi \mid m \} \}
+$$
+
 ここで重要なのは、分配関数が $A_\infty$ 構造に明示的に依存している点である。
 
 すなわち、場の量子的揺らぎは、同時に変形し続ける代数的背景の上で定義されている。
@@ -57,21 +77,37 @@ $$\mathcal{Z} \{ m \} = \int \mathcal{D} \Phi \, \exp \{ i S_{\text{field}} \{ \
 量子性は高次演算の残滓として理解される。
 
 場の作用を低次の項まで展開すると、次のような形になる。
-$$S_{\text{field}} \{ \Phi \mid m \} = \frac{1}{2} \langle \Phi , m_1 \{ \Phi \} \rangle + \frac{1}{3 !} \langle \Phi , m_2 \{ \Phi , \Phi \} \rangle + \frac{1}{4 !} \langle \Phi , m_3 \{ \Phi , \Phi , \Phi \} \rangle + \cdots$$
+
+$$
+S_{\text{field}} \{ \Phi \mid m \} = \frac{1}{2} \langle \Phi , m_1 \{ \Phi \} \rangle + \frac{1}{3 !} \langle \Phi , m_2 \{ \Phi , \Phi \} \rangle + \frac{1}{4 !} \langle \Phi , m_3 \{ \Phi , \Phi , \Phi \} \rangle + \cdots
+$$
+
 第一項は運動項を与え、第二項は通常の二体相互作用を与える。
 
 第三項に現れる $m_3$ は、結合順序の違いによるズレを表すアソシエーターであり、異なる歴史の干渉に対応する位相因子を生み出す。
 結合順序の違いは次のように測られる。
-$$m_2 \{ m_2 \{ \Phi_1 , \Phi_2 \} , \Phi_3 \} - m_2 \{ \Phi_1 , m_2 \{ \Phi_2 , \Phi_3 \} \} = m_3 \{ \Phi_1 , \Phi_2 , \Phi_3 \}$$
+
+$$
+m_2 \{ m_2 \{ \Phi_1 , \Phi_2 \} , \Phi_3 \} - m_2 \{ \Phi_1 , m_2 \{ \Phi_2 , \Phi_3 \} \} = m_3 \{ \Phi_1 , \Phi_2 , \Phi_3 \}
+$$
+
 この差が作用に寄与することで、パス積分の位相は
-$$\exp \{ i \lambda \langle \Phi , m_3 \{ \Phi , \Phi , \Phi \} \rangle \}$$
+
+$$
+\exp \{ i \lambda \langle \Phi , m_3 \{ \Phi , \Phi , \Phi \} \rangle \}
+$$
+
 のように補正される。
 
 ここで $\lambda$ は高次非結合性の強さを表す有効結合である。
 
 この位相構造が、経路の干渉、非局所性、量子的揺らぎの源となる。
 したがって、量子性は次のように要約できる。
-$$\text{Quantum} = \text{Remnant of higher } A_{\infty} \text{ operations such as } m_3$$
+
+$$
+\text{Quantum} = \text{Remnant of higher } A_{\infty} \text{ operations such as } m_3
+$$
+
 すなわち、高エネルギー領域では高次演算が大きく、量子的性質が顕著に現れる。
 
 ## Gravitational sector as the IR geometry of the flow
@@ -81,18 +117,30 @@ $$\text{Quantum} = \text{Remnant of higher } A_{\infty} \text{ operations such a
 特に $n \ge 4$ の演算はほぼゼロに縮約され、$m_3$ もジョルダン恒等式を満たす最小限の形にまで抑え込まれる。
 
 この極限において、$A_\infty$ 構造は例外型ジョルダン代数へと落ち込む。
-$$\{ V , \{ m_n \} \} \quad \longrightarrow \quad \mathcal{H}_3 \{ \mathbb{O} \}$$
+
+$$
+\{ V , \{ m_n \} \} \quad \longrightarrow \quad \mathcal{H}_3 \{ \mathbb{O} \}
+$$
+
 さらに低エネルギーでは、物理的要請により有効自由度は複素化された代数へと制限される。
-$$\mathcal{H}_3 \{ \mathbb{O} \} \quad \longrightarrow \quad \mathcal{H}_3 \{ \mathbb{C} \}$$
+
+$$
+\mathcal{H}_3 \{ \mathbb{O} \} \quad \longrightarrow \quad \mathcal{H}_3 \{ \mathbb{C} \}
+$$
+
 この代数における階数一の射影子の空間が、内部幾何としての複素射影平面を与える。
+
 $$\mathbb{C} P^2 \cong \{ P \in \mathcal{H}_3 \{ \mathbb{C} \} \mid P^2 = P , \text{rank} P = 1 \}$$
+
 ここで現れる $\mathbb{C} P^2$ は、フビニスタディ計量を備えた内部空間であり、その接続と曲率が重力およびゲージ相互作用の有効記述を与える。
 内部空間上の接続を $A$ とし、その曲率を
 $$F = \mathrm{d} A + A \wedge A$$
 と定義する。
 
 四次元時空を $M_4$ とし、その計量を $g_{\mu\nu}$ とすると、重力とゲージ場の有効作用は次のように書ける。
+
 $$S_{\text{grav+gauge}} = \frac{1}{16 \pi G} \int_{M_4} \sqrt{-g} \, R + \frac{1}{g^2} \int_{M_4 \times \mathbb{C} P^2} \mathrm{Tr} \{ F \wedge \star F \}$$
+
 ここで $R$ はリッチスカラーであり、内部空間の幾何は結合定数や有効重力定数に反映される。
 
 このように、重力は $A_\infty$ 構造の勾配流が到達した赤外極限における幾何学的側面として現れる。
@@ -101,11 +149,17 @@ $$S_{\text{grav+gauge}} = \frac{1}{16 \pi G} \int_{M_4} \sqrt{-g} \, R + \frac{1
 
 以上を統合すると、量子重力マスター方程式は、構造の勾配流と場のパス積分を組み合わせた次の組として表現できる。
 まず構造側の方程式。
+
 $$\frac{\partial m_n}{\partial \tau} = - \frac{\delta}{\delta m_n} S_{\text{info}} \{ m \} + \eta_n$$
+
 次に、その瞬間の構造に対して定義される量子場の分配関数。
+
 $$\mathcal{Z} \{ m \} = \int \mathcal{D} \Phi \, \exp \{ i S_{\text{field}} \{ \Phi \mid m \} \}$$
+
 この二つを合わせて、量子重力マスター方程式は概念的に次のように要約される。
+
 $$\text{Quantum Gravity} = \text{Gradient flow of } S_{\text{info}} \text{ on } A_{\infty} \text{ structures} + \text{Path integral of fields on that moving background}$$
+
 高エネルギーでは高次演算が支配的であり、量子的干渉と非局所性が顕著となる。
 
 低エネルギーでは高次演算が消え、残った構造がジョルダン代数と射影幾何として再解釈され、重力とゲージ場の有効理論が現れる。
