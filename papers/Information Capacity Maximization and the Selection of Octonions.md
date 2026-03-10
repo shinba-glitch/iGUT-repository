@@ -1,4 +1,4 @@
-# Paper2: Information Capacity Maximization and the Selection of Octonions
+# Paper 2: Information Capacity Maximization and the Selection of Octonions
 （情報容量の最大化と八元数の選択）
 
 ## 1. Introduction
