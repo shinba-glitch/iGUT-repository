@@ -1,4 +1,4 @@
-# A∞ Gradient Flow and the Stability of Exceptional Jordan Algebras
+# Paper 1: A∞ Gradient Flow and the Stability of Exceptional Jordan Algebras
 
 # 1. Introduction
 
