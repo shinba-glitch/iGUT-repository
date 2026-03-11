@@ -4,7 +4,7 @@
 ### *A Pre-Geometric Information Framework for the Universe*
 
 ---
-![iGUT Logo](igut-logo.png)
+![iGUT Logo](iGUT-logo.png)
 
 
 ## 🌌 What is iGUT?
