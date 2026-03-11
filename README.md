@@ -1,7 +1,11 @@
+
+
 # iGUT: informational Geometric Unified Theory  
 ### *A Pre-Geometric Information Framework for the Universe*
 
 ---
+![iGUT Logo](igut-logo.png)
+
 
 ## 🌌 What is iGUT?
 
