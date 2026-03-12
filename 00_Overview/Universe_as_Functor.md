@@ -119,7 +119,7 @@ $$
 - $F_A$：coherence の破れ → $A_\infty$（非結合性の誕生）  
 - $F_L$：反対称化 → $L_\infty$（重力的情報流）  
 - $F_G$：情報流 → Fisher 計量（時空の誕生）  
-- $F_P$：幾何 → 物理現象（場・粒子・観測）  
+- $F_P$：幾何 → 物理現象（場・粒子・観測）
 
 ---
 
@@ -142,3 +142,56 @@ $$
 すべてが、**ひとつの functor の像として統一的に理解できる。**
 
 これが、iGUT における「宇宙の圏論的定義」である。
+
+# The Categorical Diagram of iGUT
+（iGUTの $\infty$-圏図式：宇宙生成の関手的プロセス）
+
+iGUTにおける宇宙の生成は、純粋な情報構造（$\infty$-groupoid）から物理世界（$\mathcal{P}$）への一連の関手（Functors）の合成として、以下のような圏論的図式で完全に記述される。
+
+
+
+```text
+=====================================================================================
+                      【 The Universe OS Boot Sequence 】
+=====================================================================================
+
+[ Level 4: Pure Information ]
+   𝒢_∞ (The ∞-Groupoid of Distinctions)
+    │
+    │  F_A : Breaking of Coherence (Information Cooling)
+    │        "The Categorical Big Bang"
+    ▼
+[ Level 3: Pre-Dynamics ]
+   A_∞ (Homotopy Algebra / Local Error Correction)
+    │   - Emergence of non-associativity (m_3)
+    │   - Quantum fluctuations (ℏ)
+    │
+    │  F_L : Symmetrization & Globalization
+    │        "Open to Closed String Transition"
+    ▼
+[ Level 2: Algebraic Vacuum ]
+   L_∞ (Lie Homotopy Algebra / Global Information Flow)
+    │   - Homotopy Jacobi identity (Curvature constraint)
+    │   - Exceptional Jordan Algebra ℋ_3(𝕆) stabilization
+    │
+    │  F_G : Statistical Manifold Emergence
+    │        "Distinguishability to Distance"
+    ▼
+[ Level 1: Spacetime & Geometry ]
+   Metrics (Fisher Geometry / ℂP² Internal Space)
+    │   - Fubini-Study metric
+    │   - Holographic entanglement flow (Bit threads)
+    │
+    │  F_P : Physical Interpretation (Thermodynamics & Symmetries)
+    │        "The Emergence of Observables"
+    ▼
+[ Level 0: Observable Physics ]
+   𝒫 (The Category of Physical Worlds)
+        - Einstein Field Equations (R_μν - 1/2Rg_μν = 8πGT_μν)
+        - Standard Model (SU(3) × SU(2) × U(1))
+        - Fermion Generations & Constants
+
+=====================================================================================
+                Ultimate Functor:  U = F_P ∘ F_G ∘ F_L ∘ F_A
+=====================================================================================
+```text
