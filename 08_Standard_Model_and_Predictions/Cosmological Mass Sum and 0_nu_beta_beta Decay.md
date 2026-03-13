@@ -6,16 +6,20 @@
 ## 1. 質量スペクトルの厳密な導出
 
 Inverted Hierarchy（ $m_3 \ll m_1 \lesssim m_2$ ）において、3 つの質量はニュートリノ振動データを用いて以下のように書ける。
+
 $$
 m_1 = \sqrt{m_3^2 + |\Delta m^2_{31}|}
 $$
+
 $$
 m_2 = \sqrt{m_3^2 + |\Delta m^2_{31}| + \Delta m^2_{21}}
 $$
 ここに最新の実験値 $|\Delta m^2_{31}| \approx 2.4 \times 10^{-3}\text{ eV}^2$ と $\Delta m^2_{21} \approx 7.5 \times 10^{-5}\text{ eV}^2$ を代入し、iGUT の体積条件
+
 $$
 m_1 m_2 m_3 = \left( \frac{v^2}{M_P} \right)^3 \approx 1.56 \times 10^{-5}\text{ eV}^3
 $$
+
 を満たす $m_3$ を解析的に解く（微小量 $m_3$ による近似展開）。
 
 計算の結果、iGUT が要請するニュートリノの絶対質量スペクトルは以下の単一のセットに一意に定まる。
