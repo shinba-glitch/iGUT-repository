@@ -10,9 +10,16 @@ iGUT の状態空間上のブラケット $l_2^{\text{iGUT}}$ が、自己双対
 ## 3. 証明の三段構成
 
 ### Lemma 1: フビニ・スタディ・ポアソン括弧の引き戻し
-$\mathbb{C}P^1$ の局所複素座標 $z$ と、SDGを記述するスピノル平面 $\mathbb{R}^2$（座標 $\tilde{\lambda}_{\dot{\alpha}}$）の間に、非同次座標マッピング $\tilde{\lambda}_{\dot{1}} = x, \tilde{\lambda}_{\dot{2}} = y$ および $z = x + i y$ を置く。
-関数の引き戻し $\Phi_1(\Psi)(\tilde{\lambda}) \equiv \Psi(z(\tilde{\lambda}), \bar{z}(\bar{\tilde{\lambda}}))$ の下で、iGUT 側の FSポアソン括弧と SDG 側の平坦なスピノル・ポアソン括弧 $\{\cdot, \cdot\}_{\tilde{\lambda}} = \epsilon^{\dot{\alpha}\dot{\beta}}\partial_{\dot{\alpha}}\partial_{\dot{\beta}}$ は以下の関係を満たす。
+$\mathbb{C}P^1$ の局所複素座標 $z$ と、SDGを記述するスピノル平面 $\mathbb{R}^2$（座標 
+$\tilde{\lambda}_{\dot{\alpha}}$ ）の間に、非同次座標マッピング $\tilde{\lambda}_{\dot{1}} = x, \tilde{\lambda}_{\dot{2}} = y$ および $z = x + i y$ を置く。
+関数の引き戻し $\Phi_1(\Psi)(\tilde{\lambda}) \equiv \Psi(z(\tilde{\lambda}), \bar{z}(\bar{\tilde{\lambda}}))$ の下で、iGUT 側の FSポアソン括弧と SDG 側の平坦なスピノル・ポアソン括弧 
+
+$$ \{\cdot, \cdot \}_{\tilde{\lambda}} = \epsilon^{\dot{\alpha}\dot{\beta}}\partial_{\dot{\alpha}}\partial_{\dot{\beta}}$$ 
+
+は以下の関係を満たす。
+
 $$\{\Psi_1, \Psi_2\}_{FS} = \frac{1}{2}(1+|z|^2)^2 \{\Phi_1(\Psi_1), \Phi_2(\Psi_2)\}_{\tilde{\lambda}}$$
+
 *(Proof)* チェインルール $\partial_z = \frac{1}{2}(\partial_x - i \partial_y), \partial_{\bar{z}} = \frac{1}{2}(\partial_x + i \partial_y)$ を FS括弧に代入し展開することで直ちに得られる。 $\blacksquare$
 
 ### Proposition 1: 共形因子とエネルギースケールの同定
