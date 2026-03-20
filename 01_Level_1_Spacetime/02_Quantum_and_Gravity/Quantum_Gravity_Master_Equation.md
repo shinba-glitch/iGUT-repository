@@ -1,3 +1,84 @@
+# The iGUT Effective Action of Quantum Gravity
+（iGUT 量子重力の有効作用と三本柱のダイナミクス）
+
+**【位置づけ】**
+本ドキュメントは、iGUT における「量子重力」の具体的な数学的定式化を与える。
+iGUT において、量子重力は「時空を量子化する単一の方程式」としては記述されない。それは、観測者の局所トポス上において、**「外部幾何（重力）」「内部状態（物質）」「情報流（時間）」という3つの独立したモジュールが、量子ノイズ $\hbar$ の下で互いに整合性を保ち続けるための連立ダイナミクス（有効作用と拘束条件）」** として定式化される。
+
+---
+
+## 1. iGUT 量子重力の有効作用 $S_{\text{iGUT-QG}}$
+
+システムのダイナミクスは、以下の4つの項からなる有効作用によって完全に記述される。
+
+$$
+S_{\text{iGUT-QG}}[\mathcal{P}, g, j] = S_{\text{geom}}[g] + S_{\text{CP}^2}[\mathcal{P}, g] + S_{\text{flow}}[j, g] + S_{\text{noise}}[\mathcal{P}, j]
+$$
+
+### ① 外部幾何の作用 $S_{\text{geom}}[g]$ （重力 / 誤り訂正張力）
+* **OS的意味：** 随伴関手ペア（ $F \dashv U$ ）が、系の情報の連結性を維持しようとする「テンション（張力）」。
+* **物理的表現：** 情報幾何（Fisher計量）としての時空の曲率 $R[g]$ 。
+
+$$
+S_{\text{geom}} \sim \int d^4x \sqrt{-g} \, R[g]
+$$
+
+### ② 内部状態の作用 $S_{\text{CP}^2}[\mathcal{P}, g]$ （物質 / 忘却の核）
+* **OS的意味：** 忘却関手 $U$ によって潰しきれずに残った情報の固着（ $\ker(U)$ ）のダイナミクス。
+* **物理的表現：** 内部空間 $\mathbb{C}P^2$ 上の rank-1 射影子 $\mathcal{P}$ の運動と、世代や質量階層を生むポテンシャル $V(\mathcal{P})$ 。
+
+$$
+S_{\text{CP}^2} \sim \int d^4x \sqrt{-g} \left( g^{\mu\nu} G_{ab}(\mathcal{P}) \partial_\mu \mathcal{P}^a \partial_\nu \mathcal{P}^b - V(\mathcal{P}) \right)
+$$
+
+### ③ 情報流の作用 $S_{\text{flow}}[j, g]$ （時間 / ユニタリティ）
+* **OS的意味：** 忘却関手 $U$ による情報の不可逆な押し流し（時間の矢）。
+* **物理的表現：** 情報流 $j^\mu$ の保存（ $\nabla_\mu j^\mu = 0$ ）を保証するための拘束条件（ラグランジュ乗数 $\lambda$ を伴う）。
+
+$$
+S_{\text{flow}} \sim \int d^4x \sqrt{-g} \, \lambda(x) \nabla_\mu j^\mu
+$$
+
+### ④ ノイズの作用 $S_{\text{noise}}[\mathcal{P}, j]$ （量子 / 結合律の破れの残滓）
+* **OS的意味：** 局所トポスの直観主義論理において確定しきれない、高次演算（ $m_3$ アソシエーター等）の冷え残り。
+* **物理的表現：** $\mathbb{C}P^2$ 上の射影子の揺らぎ $\langle (\delta \mathcal{P})^2 \rangle$ としてプランク定数 $\hbar$ を与えるソース項。
+
+---
+
+## 2. 三本柱の連立方程式（The Coupled Dynamics）
+
+上記の有効作用を変分することで、宇宙の OS を駆動する3つの基本方程式が導出される。これらは独立ではなく、ノイズの介入に対して互いに補正し合う「自己調整システム」を形成する。
+
+### I. 外部幾何の方程式（ $g_{\mu\nu}$ での変分） $\to$ アインシュタイン方程式
+
+$$
+G_{\mu\nu}[g] = 8\pi G \, T_{\mu\nu}^{(\mathcal{P}, j)}
+$$
+
+**【解釈】** 量子ノイズや物質の運動（ $T_{\mu\nu}$ ）によって情報ネットワークが乱されたとき、空間の計量 $g_{\mu\nu}$ が曲がることでそのエラーを吸収し、システムを安定化させる（重力＝誤り訂正張力）。
+
+### II. 内部状態の方程式（ $\mathcal{P}^a$ での変分） $\to$ 物質の運動方程式
+
+$$
+\Box_g \mathcal{P}^a + \Gamma^a_{bc}(\mathcal{P}) \partial_\mu \mathcal{P}^b \partial^\mu \mathcal{P}^c = \frac{\partial V}{\partial \mathcal{P}^a} + \text{Noise}(\hbar)
+$$
+
+**【解釈】** フェルミオン（ $\mathcal{P}$ ）は、外部時空 $g_{\mu\nu}$ の影響を受けながら $\mathbb{C}P^2$ 上の測地線を移動し、ポテンシャル $V$ の底（質量階層）へと落ち着こうとするが、常に量子ノイズによって揺さぶられ続ける。
+
+### III. 情報流の方程式（ $j^\mu$ と $\lambda$ での変分） $\to$ ユニタリティの拡張
+
+$$
+\nabla_\mu j^\mu = 0
+$$
+
+**【解釈】** 幾何が曲がろうとノイズが介入しようと、「宇宙の総情報量」は局所的に保存されなければならない。これが OS の絶対に破れない「仕様（拘束条件）」である。
+
+---
+
+**【総括】**
+iGUT における量子重力とは、これら「重力（幾何）」「物質（内部状態）」「時間（情報流）」の3つのサブシステムが、量子ノイズというバグに抗いながら、情報保存のルール（ $\nabla_\mu j^\mu = 0$ ）を満たす解をリアルタイムで計算し続ける**「連立ダイナミクス」**そのものである。
+
+
 # **Quantum_Gravity_Master_Equation.md**  
 ## *iGUT 量子重力方程式：情報保存・幾何安定・残留ノイズの統合原理*
 
@@ -35,23 +116,23 @@ iGUT の量子重力は、次の2つの変数を基本とする。
 
 ### **(1) CP² 情報状態の波動汎関数**
 
-\[
+$$
 \Psi[\mathcal{P}, g_{\mu\nu}]
-\]
+$$
 
 ここで  
-- \(\mathcal{P}\)：CP² 上の rank‑1 射影子（内部自由度）  
-- \(g_{\mu\nu}\)：Fisher 情報計量から創発した外部時空の計量  
+- $\mathcal{P}$：CP² 上の rank‑1 射影子（内部自由度）  
+- $g_{\mu\nu}$：Fisher 情報計量から創発した外部時空の計量  
 
-\(\Psi\) は「宇宙の情報状態」を表す。
+$\Psi$ は「宇宙の情報状態」を表す。
 
 ---
 
 ### **(2) 情報流ベクトル場**
 
-\[
+$$
 j^\mu(x)
-\]
+4$
 
 これは  
 - エンタングルメントの伝搬  
@@ -67,14 +148,16 @@ j^\mu(x)
 
 iGUT の情報流は、次の保存則を満たす。
 
-\[
+$$
 \nabla_\mu j^\mu = 0
-\]
+$$
 
-これは量子力学のユニタリティ  
-\[
+これは量子力学のユニタリティ
+
+$$
 \frac{d}{dt} \mathrm{Tr}(\rho) = 0
-\]
+$$
+
 を時空全体に拡張したもの。
 
 iGUT では、これが **量子重力方程式の第一条件**となる。
@@ -85,28 +168,28 @@ iGUT では、これが **量子重力方程式の第一条件**となる。
 
 CP² の情報幾何は、Fubini–Study 計量を持つ：
 
-\[
+$$
 ds^2_{CP^2} = g_{ab}(\mathcal{P})\, d\mathcal{P}^a d\mathcal{P}^b
-\]
+$$
 
 外部時空の Fisher 計量は：
 
-\[
+$$
 ds^2_{\text{spacetime}} = G_{\mu\nu}(x)\, dx^\mu dx^\nu
-\]
+$$
 
 iGUT では、これらが **整合条件**を満たす必要がある。
 
-\[
+$$
 \mathcal{R}_{ab}(\mathcal{P}) \quad \leftrightarrow \quad G_{\mu\nu}(x)
-\]
+$$
 
 この整合性が Jacobson の熱力学的導出と一致し、  
 アインシュタイン方程式を再現する：
 
-\[
+$$
 G_{\mu\nu} = 8\pi G\, T_{\mu\nu}
-\]
+$$
 
 ---
 
@@ -115,9 +198,9 @@ G_{\mu\nu} = 8\pi G\, T_{\mu\nu}
 Level 3 の非結合カオスは完全には消えず、  
 残留ノイズとして Level 1 に持ち越される。
 
-\[
+$$
 \hbar = \langle \eta^2 \rangle
-\]
+$$
 
 このノイズは  
 - CP² の射影子を揺らし  
@@ -145,7 +228,7 @@ Level 3 の非結合カオスは完全には消えず、
 
 ### **iGUT Quantum Gravity Master Equation**
 
-\[
+$$
 \boxed{
 \left[
 -\hbar^2 \frac{\delta^2}{\delta \mathcal{P}^2}
@@ -160,20 +243,20 @@ Level 3 の非結合カオスは完全には消えず、
 \right]
 \Psi[\mathcal{P}, g_{\mu\nu}]
 }
-\]
+$$
 
 ここで：
 
-- \(\mathcal{R}_{CP^2}\)：CP² の曲率（内部自由度の幾何）  
-- \(\mathcal{H}_{\text{noise}}\)：残留ノイズの効果（ℏ の起源）  
-- \(\mathcal{H}_{\text{geom}}\)：外部時空の Fisher 計量の曲率  
-- \(\mathcal{H}_{\text{matter}}\)：Peirce 分解から生じる物質項  
+- $\mathcal{R}_{CP^2}$ ：CP² の曲率（内部自由度の幾何）  
+- $\mathcal{H}_{\text{noise}}$ ：残留ノイズの効果（ℏ の起源）  
+- $\mathcal{H}_{\text{geom}}$ ：外部時空の Fisher 計量の曲率  
+- $\mathcal{H}_{\text{matter}}$ ：Peirce 分解から生じる物質項  
 
 さらに、情報保存則：
 
-\[
+$$
 \nabla_\mu j^\mu = 0
-\]
+$$
 
 が **拘束条件（constraint）**として課される。
 
@@ -183,9 +266,9 @@ Level 3 の非結合カオスは完全には消えず、
 
 従来の量子重力方程式：
 
-\[
+$$
 \hat{H}_{\text{WDW}} \Psi[g_{\mu\nu}] = 0
-\]
+$$
 
 は「時空のみ」を扱うが、  
 iGUT の Master Equation は
