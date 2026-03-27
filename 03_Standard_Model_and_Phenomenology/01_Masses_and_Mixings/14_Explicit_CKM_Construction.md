@@ -51,7 +51,11 @@ $$
 この展開式を行列表現で明示的に書き下すと、次のような近似的な構造が現れる。
 
 $$
-V_{\text{CKM}} \approx \begin{pmatrix} 1 & 0 & i\Delta\theta_4 + \Delta\theta_5 \\ 0 & 1 & i\Delta\theta_6 + \Delta\theta_7 \\ i\Delta\theta_4 - \Delta\theta_5 & i\Delta\theta_6 - \Delta\theta_7 & 1 \end{pmatrix}
+V_{\text{CKM}} \approx \begin{pmatrix} 
+1 & 0 & i\Delta\theta_4 + \Delta\theta_5 \\
+0 & 1 & i\Delta\theta_6 + \Delta\theta_7 \\
+i\Delta\theta_4 - \Delta\theta_5 & i\Delta\theta_6 - \Delta\theta_7 & 1 
+\end{pmatrix}
 $$
 
 この結果は、標準模型の観測事実（隣接しない世代間の混合は小さいが、ゼロではない構造）のトポロジカルな骨格を完璧に捉えている。第1世代と第2世代の直接の混合（カビボ角 $V_{us}$）は、この1次の展開では現れず、非可換な生成元の交換関係に由来する2次以上の高次項 $\mathcal{O}(\Delta \theta^2)$ として生じる。これが「カビボ角が他の角に比べて特異な値を持つ理由」の幾何学的説明となる。
@@ -77,7 +81,16 @@ $$
 iGUT の構成において、この複素位相の起源は極めて明快である。 $\mathfrak{m}$ を張る4つの生成元のうち、 $\lambda_5$ と $\lambda_7$ は純虚数の反対称行列である。
 
 $$
-\lambda_5 = \begin{pmatrix} 0 & 0 & -i \\ 0 & 0 & 0 \\ i & 0 & 0 \end{pmatrix}, \quad \lambda_7 = \begin{pmatrix} 0 & 0 & 0 \\ 0 & 0 & -i \\ 0 & i & 0 \end{pmatrix}
+\lambda_5 = \begin{pmatrix} 
+0 & 0 & -i \\ 
+0 & 0 & 0 \\ 
+i & 0 & 0 
+\end{pmatrix}, \quad 
+\lambda_7 = \begin{pmatrix}
+0 & 0 & 0 \\
+0 & 0 & -i \\
+0 & i & 0
+\end{pmatrix}
 $$
 
 フレームのズレ $\Delta \theta_5$ および $\Delta \theta_7$ が非ゼロであるとき、構成された $V_{\text{CKM}}$ には必然的に消去できない虚数成分（複素位相）が残留する。
