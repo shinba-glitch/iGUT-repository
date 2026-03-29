@@ -230,17 +230,10 @@ $$
 
 $$
 \boxed{
-\left[
--\hbar^2 \frac{\delta^2}{\delta \mathcal{P}^2}
-+ \mathcal{R}_{CP^2}(\mathcal{P})
-+ \mathcal{H}_{\text{noise}}[j^\mu]
+\left[-\hbar^2 \frac{\delta^2}{\delta \mathcal{P}^2}+ \mathcal{R}_{CP^2}(\mathcal{P})+ \mathcal{H}_{\text{noise}}[j^\mu]
 \right]
 \Psi[\mathcal{P}, g_{\mu\nu}]
-=
-\left[
-\mathcal{H}_{\text{geom}}[g_{\mu\nu}]
-+ \mathcal{H}_{\text{matter}}
-\right]
+=\left[\mathcal{H}_{\text{geom}}[g_{\mu\nu}]+ \mathcal{H}_{\text{matter}}\right]
 \Psi[\mathcal{P}, g_{\mu\nu}]
 }
 $$
